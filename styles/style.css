@@ -1,22 +1,60 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+/* --------- header ------- */
+
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 110px;
+    background-color: #212121;
     box-shadow: 0 0 5px #000000a3;
 }
 
-.content {
-    width: 526px;
+.logo {
+    width: 260px;
 }
 
-.title {
-    margin-bottom: 40px;
-    font-size: 50px;
+.nav {
+    display: flex;
+    gap: 46px;
 }
 
-.text {
-    margin-bottom: 60px;
-    font-size: 16px;
-    line-height: 22px;
+.link {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.link:hover {
+    transition: 0.15s;
+    opacity: 0.5;
+}
+
+.icons {
+    display: flex;
+    gap: 25px;
+}
+
+.icons img {
+    filter: invert(1);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.icons img:hover {
+    opacity: 1;
+    transition: 0.15s;
+}
+
+/* --------- end header ------- */
+
+.feel {
+    height: 700px;
+    background: url('../images/fell.jpg');
 }
