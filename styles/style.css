@@ -20,34 +20,3 @@
     font-size: 16px;
     line-height: 22px;
 }
-
-.crane {
-    padding-top: 116px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.crane__link {
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    width: 638px;
-}
-
-.item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 250px;
-    width: 306px;
-    padding: 30px 35px;
-    border-radius: 20px;
-    background-color: #5DB7DE;
-}
