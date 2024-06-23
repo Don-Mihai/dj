@@ -54,7 +54,65 @@ body {
 
 /* --------- end header ------- */
 
+/* --------- feel ------------ */
 .feel {
-    height: 700px;
-    background: url('../images/fell.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: calc(100vh - 110px);
+    background: url('../images/fell.jpg') no-repeat center/cover;
+}
+
+.title {
+    font-size: 36px;
+    color: #fff;
+}
+
+.subtitle {
+    width: 100%;
+    font-size: 120px;
+    font-weight: 700;
+    fill: transparent;
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+.content {
+    width: 1170px;
+    margin-bottom: 200px;
+}
+
+.audio {
+    margin-top: 16px;
+    width: 100%;
+}
+
+/* --------- end feel ------------ */
+
+/* --------- dj ------------ */
+
+.dj {
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.dj__image {
+    height: 327px;
+}
+
+.dj__content {
+    width: 500px;
+}
+
+.dj__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #151515;
+}
+
+.dj__text {
+    font-size: 15px;
+    color: #151515;
 }
