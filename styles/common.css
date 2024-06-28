@@ -1,0 +1,37 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.button {
+  padding: 18px 35px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  background-color: #8121e0;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #561794;
+  transition: 0.15s;
+  transform: scale(1.01);
+}
+
+.button-secondary {
+  border: 1px solid #151515;
+  color: #151515;
+  background-color: #fff;
+}
+
+.button-secondary:hover {
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.title {
+  font-size: 36px;
+  color: #fff;
+}
