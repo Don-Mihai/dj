@@ -35,3 +35,10 @@ body {
   font-size: 36px;
   color: #fff;
 }
+
+.figure {
+  position: absolute;
+  height: 40px;
+  width: 20px;
+  background-color: #8121e0;
+}

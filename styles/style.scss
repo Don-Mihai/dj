@@ -1,4 +1,16 @@
-$header-hight: 110px;
+@import './variables.scss';
+
+@mixin horizontal-align {
+  display: flex;
+  justify-content: center;
+}
+
+// @mixin font($size) {
+//   font-family: "Poppins", sans-serif;
+//   font-weight: 400;
+//   font-size: $size;
+//   margin: calc(2 * $size);
+// }
 
 /* --------- header ------- */
 
@@ -6,13 +18,23 @@ $header-hight: 110px;
   position: fixed;
   top: 0;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: $header-hight;
   background-color: #212121;
   box-shadow: 0 0 5px #000000a3;
   z-index: 100;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  height: $header-hight;
+  justify-content: space-between;
 }
 
 .logo {
@@ -26,6 +48,7 @@ $header-hight: 110px;
 
 .nav__link {
   color: #fff;
+  // @include font(15px);
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -38,6 +61,7 @@ $header-hight: 110px;
 }
 
 .header__icons {
+  // @include font(24px);
   display: flex;
   gap: 25px;
 }
@@ -58,15 +82,13 @@ $header-hight: 110px;
 /* --------- feel ------------ */
 .feel {
   margin-top: $header-hight;
-  display: flex;
-  justify-content: center;
+  @include horizontal-align;
   align-items: flex-end;
   height: calc(100vh - $header-hight);
   background: url("../images/fell.jpg") no-repeat center/cover;
 }
 
-.feel__content {
-  width: 1170px;
+.feel__container {
   margin-bottom: 200px;
 }
 
@@ -90,8 +112,7 @@ $header-hight: 110px;
 
 .dj {
   padding: 150px 1px;
-  display: flex;
-  justify-content: center;
+  @include horizontal-align;
   gap: 100px;
 
   &__wrap {
@@ -104,12 +125,8 @@ $header-hight: 110px;
   }
 
   &__figure {
-    position: absolute;
     top: -20px;
     left: 30px;
-    height: 40px;
-    width: 20px;
-    background-color: #8121e0;
   }
 
   &__content {
@@ -138,10 +155,17 @@ $header-hight: 110px;
 /* --------- listen ------------ */
 
 .listen {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 45px;
-  padding: 150px 0;
   background: url("../images/img.png") no-repeat center/cover;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    padding: 150px 0;
+  }
+
+  &__figure {
+    top: -20px;
+    right: 10px;
+  }
 }

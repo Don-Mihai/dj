@@ -3,13 +3,23 @@
   position: fixed;
   top: 0;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 110px;
   background-color: #212121;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6392156863);
   z-index: 100;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  height: 110px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -61,8 +71,7 @@
   background: url("../images/fell.jpg") no-repeat center/cover;
 }
 
-.feel__content {
-  width: 1170px;
+.feel__container {
   margin-bottom: 200px;
 }
 
@@ -95,30 +104,21 @@
   border-radius: 7px;
   height: 327px;
 }
-
 .dj__figure {
-  position: absolute;
   top: -20px;
   left: 30px;
-  height: 40px;
-  width: 20px;
-  background-color: #8121e0;
 }
-
 .dj__content {
   width: 500px;
 }
-
 .dj__title {
   font-weight: 700;
   color: #151515;
 }
-
 .dj__text {
   font-size: 15px;
   color: #151515;
 }
-
 .dj__quote {
   padding: 12px 23px 0;
   margin-bottom: 35px;
@@ -128,10 +128,16 @@
 /* --------- end dj ------------ */
 /* --------- listen ------------ */
 .listen {
+  background: url("../images/img.png") no-repeat center/cover;
+}
+.listen__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 45px;
   padding: 150px 0;
-  background: url("../images/img.png") no-repeat center/cover;
+}
+.listen__figure {
+  top: -20px;
+  right: 10px;
 }/*# sourceMappingURL=style.css.map */
