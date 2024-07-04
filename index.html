@@ -1,71 +1,101 @@
 <!doctype html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>DJ</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles/reset.css" />
-  <link rel="stylesheet" href="styles/common.css" />
-  <link rel="stylesheet" href="styles/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <title>DJ</title>
-</head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <img src="images/logo.png" alt="" class="logo" />
+        <nav class="nav">
+          <a href="#" class="nav__link">Главная</a>
+          <a href="#" class="nav__link">Услуги</a>
+          <a href="#" class="nav__link">Портфолио</a>
+          <a href="#" class="nav__link">О нас</a>
+        </nav>
 
-<body>
-  <header class="header">
-    <div class="container header__container">
-      <img src="images/logo.png" alt="" class="logo" />
-      <nav class="nav">
-        <a href="#" class="nav__link">Главная</a>
-        <a href="#" class="nav__link">Услуги</a>
-        <a href="#" class="nav__link">Портфолио</a>
-        <a href="#" class="nav__link">О нас</a>
-      </nav>
-
-      <div class="header__icons">
-        <a href="https://t.me/your_telegram_username" target="_blank">
-          <img class="header__img" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/telegram.svg" alt="Telegram"
-            width="24" height="24" />
-        </a>
-        <a href="https://www.instagram.com/your_instagram_username/" target="_blank">
-          <img class="header__img" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" alt="Instagram"
-            width="24" height="24" />
-        </a>
-        <a href="https://vk.com/your_vk_username" target="_blank">
-          <img class="header__img" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vk.svg" alt="VK" width="24"
-            height="24" />
-        </a>
-        <a href="https://www.youtube.com/channel/your_youtube_channel_id" target="_blank">
-          <img class="header__img" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/youtube.svg" alt="YouTube"
-            width="24" height="24" />
-        </a>
+        <div class="header__icons">
+          <a href="https://t.me/your_telegram_username" target="_blank">
+            <img
+              class="header__img"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/telegram.svg"
+              alt="Telegram"
+              width="24"
+              height="24"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/your_instagram_username/"
+            target="_blank"
+          >
+            <img
+              class="header__img"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg"
+              alt="Instagram"
+              width="24"
+              height="24"
+            />
+          </a>
+          <a href="https://vk.com/your_vk_username" target="_blank">
+            <img
+              class="header__img"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vk.svg"
+              alt="VK"
+              width="24"
+              height="24"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/your_youtube_channel_id"
+            target="_blank"
+          >
+            <img
+              class="header__img"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/youtube.svg"
+              alt="YouTube"
+              width="24"
+              height="24"
+            />
+          </a>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <section class="feel">
-    <div class="container feel__container">
-      <h2 class="title">New Single</h2>
-      <svg class="feel__subtitle">
-        <text x="0" y="85%">Feel the Rhythm</text>
-      </svg>
+    <section class="feel">
+      <div class="container feel__container">
+        <h2 class="title">New Single</h2>
+        <svg class="feel__subtitle">
+          <text x="0" y="85%">Feel the Rhythm</text>
+        </svg>
 
-      <audio class="audio" controls>
-        <source src="horse.ogg" type="audio/ogg" />
-        <source src="horse.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
+        <audio class="audio" controls>
+          <source src="horse.ogg" type="audio/ogg" />
+          <source src="horse.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
-      </section>
-      <section class="dj">
-        <div class="dj__wrap">
-          <img src="images/dj.png" alt="" class="dj__image" />
-      <div class="figure dj__figure"></div>
+    </section>
+    <!--    todo: тут будет слайдер с диджеями-->
+    <section class="dj">
+      <div class="dj__wrap">
+        <img src="images/dj.png" alt="" class="dj__image" />
+        <div class="figure dj__figure"></div>
       </div>
       <div class="dj__content">
         <h3 class="title dj__title">About DJ Angerone</h3>
@@ -83,14 +113,61 @@
           Recordings etc.) and received a number of music awards.
         </p>
       </div>
-      </section>
-      <section class="listen">
-        <div class="container listen__container">
-          <h3 class="title">Listen to the Latest Releases by DJ Angerone</h3>
-          <button class="button">view discography</button>
-          <div class="figure listen__figure"></div>
+    </section>
+    <section class="listen">
+      <div class="container listen__container">
+        <h3 class="title">Listen to the Latest Releases by DJ Angerone</h3>
+        <button class="button">view discography</button>
+        <div class="figure listen__figure"></div>
+      </div>
+    </section>
+    <section class="tickets container">
+      <h2 class="title tickets__title">Tickets</h2>
+      <div class="tickets__wrap">
+        <div class="tickets__item">
+          <h3 class="tickets__subtitle">BASIC</h3>
+          <span class="tickets__price">50</span>
+          <div class="tickets__text-cont">
+            <span class="tickets__text">1 Event</span>
+            <span class="tickets__text">Basic Access</span>
+            <span class="tickets__text">Club Events Only</span>
+            <span class="tickets__text">Free Snacks</span>
           </div>
-      </section>
-  </body>
 
+          <button class="button button-secondary">buy now</button>
+        </div>
+        <div class="vert-line"></div>
+
+        <div class="tickets__item">
+          <h3 class="tickets__subtitle">BASIC</h3>
+          <span class="tickets__price">50</span>
+          <div class="tickets__text-cont">
+            <span class="tickets__text">1 Event</span>
+            <span class="tickets__text">Basic Access</span>
+            <span class="tickets__text">Club Events Only</span>
+            <span class="tickets__text">Free Snacks</span>
+          </div>
+
+          <button class="button">buy now</button>
+        </div>
+
+        <div class="vert-line"></div>
+
+        <div class="tickets__item">
+          <h3 class="tickets__subtitle">BASIC</h3>
+          <span class="tickets__price">50</span>
+          <div class="tickets__text-cont">
+            <span class="tickets__text">1 Event</span>
+            <span class="tickets__text">Basic Access</span>
+            <span class="tickets__text">Club Events Only</span>
+            <span class="tickets__text">Free Snacks</span>
+          </div>
+
+          <button class="button button-secondary">buy now</button>
+        </div>
+      </div>
+    </section>
+    <!--    todo: калькулятор для услуг-->
+    <section class="calculator"></section>
+  </body>
 </html>
