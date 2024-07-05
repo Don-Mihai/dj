@@ -28,6 +28,7 @@
   width: 100%;
   margin: 0 auto;
   position: relative;
+  padding: 0 8px;
 }
 
 .header__container {
@@ -215,3 +216,54 @@
     gap: 4px;
   }
 }
+
+.order {
+  height: 1000px;
+  padding: 100px;
+}
+
+//input {
+//  height: 30px;
+//  width: 400px;
+//}
+
+@media (max-width: 1024px) {
+  .logo {
+    width: 175px;
+  }
+
+  .nav {
+    gap: 38px;
+
+    &__link {
+      font-size: 13px;
+    }
+  }
+
+  .feel__subtitle {
+    font-size: 90px;
+  }
+
+  .dj {
+    gap: 40px;
+
+    &__image {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .feel__subtitle {
+    font-size: 56px;
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .feel__subtitle {
+    font-size: 41px;
+    margin-top: -85px;
+  }
+}
+

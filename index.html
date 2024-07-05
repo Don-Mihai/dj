@@ -23,6 +23,7 @@
     <header class="header">
       <div class="container header__container">
         <img src="images/logo.png" alt="" class="logo" />
+
         <nav class="nav">
           <a href="#" class="nav__link">Главная</a>
           <a href="#" class="nav__link">Услуги</a>
@@ -122,10 +123,10 @@
       </div>
     </section>
     <section class="tickets container">
-      <h2 class="title tickets__title">Tickets</h2>
+      <h2 class="title tickets__title">Услуги</h2>
       <div class="tickets__wrap">
         <div class="tickets__item">
-          <h3 class="tickets__subtitle">BASIC</h3>
+          <h3 class="tickets__subtitle">Свадьба</h3>
           <span class="tickets__price">50</span>
           <div class="tickets__text-cont">
             <span class="tickets__text">1 Event</span>
@@ -139,8 +140,8 @@
         <div class="vert-line"></div>
 
         <div class="tickets__item">
-          <h3 class="tickets__subtitle">BASIC</h3>
-          <span class="tickets__price">50</span>
+          <h3 class="tickets__subtitle">Корпоратив</h3>
+          <span class="tickets__price">90</span>
           <div class="tickets__text-cont">
             <span class="tickets__text">1 Event</span>
             <span class="tickets__text">Basic Access</span>
@@ -154,8 +155,20 @@
         <div class="vert-line"></div>
 
         <div class="tickets__item">
-          <h3 class="tickets__subtitle">BASIC</h3>
+          <h3 class="tickets__subtitle">День рождения</h3>
           <span class="tickets__price">50</span>
+          <div class="tickets__text-cont">
+            <span class="tickets__text">1 Event</span>
+            <span class="tickets__text">Basic Access</span>
+            <span class="tickets__text">Club Events Only</span>
+            <span class="tickets__text">Free Snacks</span>
+          </div>
+
+          <button class="button button-secondary">buy now</button>
+        </div>
+        <div class="tickets__item">
+          <h3 class="tickets__subtitle">Юбилей</h3>
+          <span class="tickets__price">80</span>
           <div class="tickets__text-cont">
             <span class="tickets__text">1 Event</span>
             <span class="tickets__text">Basic Access</span>
@@ -167,6 +180,55 @@
         </div>
       </div>
     </section>
+
+    <section class="order">
+      <form action="">
+        <input type="text" placeholder="Текст" />
+        <input type="number" placeholder="Числа" />
+        <input type="submit" value="" />
+        <input type="color" name="" id="a" />
+        <input type="tel" name="" id="b" placeholder="Телефон" />
+        <input type="password" name="" id="c" placeholder="Пароль" />
+        <br />
+        <br />
+        <div>
+          <input type="checkbox" name="" id="check" />
+          <label for="check">Принять пользовательское соглашение</label>
+        </div>
+        <div>
+          <input type="radio" name="sex" id="male" />
+          <label for="male">Мужчина</label>
+          <input type="radio" name="sex" id="female" />
+          <label for="female">Женщина</label>
+          <br />
+          <input type="radio" name="product" id="milk" />
+          <label for="milk">молоко</label>
+          <input type="radio" name="product" id="water" />
+          <label for="water">вода</label>
+          <br />
+          <textarea name="" id=""></textarea>
+          <br />
+          <select name="" id="">
+            <option>ru</option>
+            <option>en</option>
+          </select>
+
+          <select name="country">
+            <optgroup label="Северная Америка">
+              <option value="usa">США</option>
+              <option value="canada">Канада</option>
+              <option value="mexico">Мексика</option>
+            </optgroup>
+            <optgroup label="Европа">
+              <option value="france">Франция</option>
+              <option value="germany">Германия</option>
+              <option value="italy">Италия</option>
+            </optgroup>
+          </select>
+        </div>
+      </form>
+    </section>
+
     <!--    todo: калькулятор для услуг-->
     <section class="calculator"></section>
   </body>
