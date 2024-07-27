@@ -25,10 +25,10 @@
         <img src="images/logo.png" alt="" class="logo" />
 
         <nav class="nav">
-          <a href="#" class="nav__link">Главная</a>
-          <a href="#" class="nav__link">Услуги</a>
-          <a href="#" class="nav__link">Портфолио</a>
-          <a href="#" class="nav__link">О нас</a>
+          <a href="index.html" class="nav__link">Главная</a>
+          <a href="services.html" class="nav__link">Услуги</a>
+          <a href="portfolio.html" class="nav__link">Портфолио</a>
+          <a href="about.html" class="nav__link">О нас</a>
         </nav>
 
         <div class="header__icons">
@@ -181,55 +181,90 @@
       </div>
     </section>
 
-    <section class="order">
-      <form action="">
-        <input type="text" placeholder="Текст" />
-        <input type="number" placeholder="Числа" />
-        <input type="submit" value="" />
-        <input type="color" name="" id="a" />
-        <input type="tel" name="" id="b" placeholder="Телефон" />
-        <input type="password" name="" id="c" placeholder="Пароль" />
-        <br />
-        <br />
-        <div>
-          <input type="checkbox" name="" id="check" />
-          <label for="check">Принять пользовательское соглашение</label>
-        </div>
-        <div>
-          <input type="radio" name="sex" id="male" />
-          <label for="male">Мужчина</label>
-          <input type="radio" name="sex" id="female" />
-          <label for="female">Женщина</label>
-          <br />
-          <input type="radio" name="product" id="milk" />
-          <label for="milk">молоко</label>
-          <input type="radio" name="product" id="water" />
-          <label for="water">вода</label>
-          <br />
-          <textarea name="" id=""></textarea>
-          <br />
-          <select name="" id="">
-            <option>ru</option>
-            <option>en</option>
-          </select>
-
-          <select name="country">
-            <optgroup label="Северная Америка">
-              <option value="usa">США</option>
-              <option value="canada">Канада</option>
-              <option value="mexico">Мексика</option>
-            </optgroup>
-            <optgroup label="Европа">
-              <option value="france">Франция</option>
-              <option value="germany">Германия</option>
-              <option value="italy">Италия</option>
-            </optgroup>
-          </select>
-        </div>
-      </form>
-    </section>
-
     <!--    todo: калькулятор для услуг-->
     <section class="calculator"></section>
+    <section class="subscribe">
+      <div class="container subscribe__container">
+        <h2 class="title">Subscribe to Stay Informed</h2>
+        <form action="" class="subscribe__form">
+          <input
+            type="email"
+            class="subscribe__form__email"
+            placeholder="Your e-mail"
+            required
+          />
+
+          <!-- Непонятно как влепить гэп между кнопой и инпутом.
+          Непонятно с чего тут кнопка больше чем нужно ,() -->
+          <input
+            type="submit"
+            value="Subscribe"
+            class="button primary subscribe__form__button"
+          />
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="images/logo.png" alt="" class="logo" />
+      </div>
+      <div class="footer__links">
+        <a href="#" class="nav__link">ABOUT</a>
+        <a href="#" class="nav__link">DISCOGRAPHY</a>
+        <a href="#" class="nav__link">TOURS</a>
+        <a href="#" class="nav__link">PHOTOS</a>
+      </div>
+      <div class="footer__icons">
+        <a
+          href="https://www.youtube.com/channel/your_youtube_channel_id"
+          target="_blank"
+        >
+          <img
+            class="header__img"
+            src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/youtube.svg"
+            alt="YouTube"
+            width="24"
+            height="24"
+          />
+        </a>
+
+        <a
+          href="https://www.instagram.com/your_instagram_username/"
+          target="_blank"
+        >
+          <img
+            class="header__img"
+            src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg"
+            alt="Instagram"
+            width="24"
+            height="24"
+          />
+        </a>
+
+        <a href="https://vk.com/your_vk_username" target="_blank">
+          <img
+            class="header__img"
+            src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vk.svg"
+            alt="VK"
+            width="24"
+            height="24"
+          />
+        </a>
+
+        <a href="https://t.me/your_telegram_username" target="_blank">
+          <img
+            class="header__img"
+            src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/telegram.svg"
+            alt="Telegram"
+            width="24"
+            height="24"
+          />
+        </a>
+      </div>
+      <div>
+        <span class="footer__rights">2024. All the rights ignored. XOXO</span>
+      </div>
+      <div class="deco footer__deco"></div>
+    </footer>
   </body>
 </html>

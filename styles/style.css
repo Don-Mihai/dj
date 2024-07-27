@@ -8,14 +8,6 @@
   z-index: 100;
 }
 
-.container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 8px;
-}
-
 .header__container {
   display: flex;
   align-items: center;
@@ -207,16 +199,199 @@
     display: none;
   }
 }
+/*__________ subscribe start__________*/
+.subscribe {
+  padding: 110px 0px;
+  background: url("../images/jiroe-matia-rengel-b9kh72kOcdM-unsplash.jpg") no-repeat center/cover;
+}
+.subscribe__form {
+  padding-top: 60px;
+  gap: 24px;
+}
+.subscribe__form__email {
+  height: 60px;
+  width: 500px;
+  padding-left: 16px;
+}
+.subscribe__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*__________ subscribe end __________*/
+/*__________ footer start__________*/
+.footer {
+  position: relative;
+  padding: 110px 0;
+  background: #212121;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__logo {
+  padding-bottom: 60px;
+}
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  padding-bottom: 40px;
+}
+.footer__icons {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  padding-bottom: 90px;
+}
+.footer__rights {
+  padding-bottom: 40px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer__deco {
+  position: absolute;
+  top: -20px;
+  left: 80px;
+}
+
+/*__________ footer end __________*/
+@media (max-width: 1024px) {
+  .logo {
+    width: 175px;
+  }
+  .nav {
+    gap: 16px;
+  }
+  .nav__link {
+    font-size: 12px;
+  }
+  .feel__subtitle {
+    font-size: 90px;
+  }
+  .about {
+    padding: 0px 16px;
+  }
+  .about__portrait {
+    max-height: 550px;
+  }
+  .listen__deco {
+    bottom: 306px;
+    left: 300px;
+  }
+  .release__card-title {
+    font-size: 40px;
+    margin-top: -150px;
+  }
+  .release__rect {
+    width: 222px;
+    height: 234px;
+  }
+  .fanbase__deco {
+    width: 27px;
+    height: 27px;
+  }
+  .subscribe {
+    text-align: center;
+  }
+  .subscribe__form {
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .subscribe__form__email {
+    width: 400px;
+  }
+}
 @media (max-width: 768px) {
+  .header__icons {
+    display: none;
+  }
+  .header__container {
+    justify-content: space-around;
+  }
   .feel__subtitle {
     font-size: 56px;
     margin-top: -70px;
   }
+  .about__portrait, .about__deco-dbl, .about__deco {
+    display: none;
+  }
+  .listen__deco {
+    bottom: 363px;
+    left: 210px;
+  }
+  .release__card-title {
+    font-size: 16px;
+    margin-top: -38px;
+    padding-bottom: 10px;
+  }
+  .release__rect {
+    width: 92px;
+    height: 97px;
+  }
+  .release__description {
+    font-size: 16px;
+  }
+  .release__card_title {
+    font-size: 16px;
+    margin-top: -40px;
+    padding-bottom: 20px;
+  }
+  .tickets__text-cont {
+    height: 92px;
+    white-space: nowrap;
+  }
+  .fanbase__deco {
+    width: 20px;
+    height: 20px;
+  }
+  .fanbase__parallax-pics {
+    display: none;
+  }
+  .fanbase__content {
+    max-width: 90%;
+  }
+  .footer__rights {
+    white-space: nowrap;
+  }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
+  .nav {
+    display: none;
+  }
   .feel__subtitle {
-    font-size: 41px;
+    font-size: 40px;
     margin-top: -85px;
+  }
+  .listen__deco {
+    bottom: 413px;
+    left: 160px;
+  }
+  .tickets__wrap {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .about {
+    padding: 16px;
+    padding-top: 0px;
+  }
+  .about__content {
+    padding-left: 0px;
+  }
+  .release__singles {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+  }
+  .release__rect {
+    width: 111px;
+    height: 117px;
+  }
+  .subscribe__form__email {
+    width: 350px;
   }
 }
 
