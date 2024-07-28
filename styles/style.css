@@ -135,6 +135,97 @@
   right: 10px;
 }
 
+/*__________ release start __________*/
+.release {
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+.release__title {
+  color: #151515;
+}
+.release__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.release__text {
+  flex-wrap: wrap;
+  max-width: 520px;
+}
+.release__singles {
+  display: flex;
+  gap: 32px;
+}
+.release__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.release__rect {
+  margin-top: 32px;
+}
+.release__card_title {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: -156px;
+  padding-bottom: 90px;
+  color: #fff;
+}
+.release__description {
+  color: #151515;
+  color: #151515;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.release__date {
+  color: #151515;
+  font-size: 18px;
+}
+
+/*__________ release end __________*/
+/*__________ fanbase start __________*/
+.fanbase {
+  background: url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg") no-repeat center/cover;
+  padding: 110px 0px;
+}
+.fanbase__container {
+  display: flex;
+}
+.fanbase__parallax-pics {
+  max-width: 30%;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.fanbase__content {
+  max-width: 70%;
+}
+.fanbase__list-item {
+  display: flex;
+  padding: 60px 0px 0px 60px;
+  gap: 24px;
+  align-items: center;
+}
+.fanbase__list-item__content {
+  display: flex;
+  flex-direction: column;
+}
+.fanbase__deco {
+  width: 51px;
+  height: 51px;
+  border: #8121e0 5px solid;
+}
+.fanbase__subtitle {
+  color: #fff;
+  font-size: 32px;
+}
+.fanbase__text {
+  color: #fff;
+}
+
+/*__________ fanbase end __________*/
 /* --------- tickets ------------ */
 .tickets {
   padding: 80px 0;
