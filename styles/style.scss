@@ -41,6 +41,7 @@
 .dj {
   padding: 150px 1px;
   @include horizontal-align;
+  align-items: center;
   gap: 100px;
 
   &__wrap {
@@ -78,6 +79,24 @@
   }
 }
 
+.arrow {
+  cursor: pointer;
+  font-size: 54px;
+  padding: 10px;
+  user-select: none;
+  color: #151515;
+}
+
+.left-arrow {
+  position: absolute;
+  left: 0;
+}
+
+.right-arrow {
+  position: absolute;
+  right: 0;
+}
+
 /* --------- end dj ------------ */
 
 /* --------- listen ------------ */
@@ -90,6 +109,12 @@
     align-items: center;
     gap: 45px;
     padding: 150px 0;
+  }
+
+  &__title {
+    border-radius: 8px;
+    padding: 10px 50px;
+    background: rgba(0, 0, 0, 0.3);
   }
 
   &__figure {
@@ -160,7 +185,7 @@
 /*__________ fanbase start __________*/
 .fanbase {
   background: url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg")
-  no-repeat center/cover;
+    no-repeat center/cover;
   padding: $margin-top 0px;
 
   &__container {
@@ -351,5 +376,64 @@
   }
 }
 /*__________ footer end __________*/
+
+@mixin font-settings($size, $weight: normal, $lh: 1.5) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $lh;
+}
+
+.company {
+  background-color: $lightest;
+  color: $darkest;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 110px;
+
+  &__content {
+    max-width: 960px;
+  }
+
+  &__title,
+  .contacts__title {
+    @include font-settings(36px, bold);
+    color: $accent;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    @include font-settings(18px);
+    color: $darker;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .company__contacts {
+    font-size: 16px;
+
+    .contacts__info {
+      margin-bottom: 10px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+
+      .social-link {
+        color: $accent;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
 
 @import "mediaqueries";
