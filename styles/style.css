@@ -419,6 +419,24 @@
   text-decoration: underline;
 }
 
+.gallery {
+  display: grid;
+  gap: 20px;
+  padding: 150px 10px 40px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.gallery-item {
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 @media (max-width: 1024px) {
   .logo {
     width: 175px;
