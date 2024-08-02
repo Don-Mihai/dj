@@ -437,6 +437,30 @@
   display: block;
 }
 
+.gallery-home {
+  height: 600px;
+  overflow: hidden;
+}
+.gallery-home__top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 50%;
+}
+.gallery-home__bottom {
+  display: flex;
+  height: 50%;
+}
+.gallery-home__item {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.gallery-home__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 1024px) {
   .logo {
     width: 175px;
