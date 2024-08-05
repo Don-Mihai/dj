@@ -456,7 +456,7 @@
 }
 
 .gallery-home {
-  height: 600px;
+  height: calc(100vh - $header-hight);
   overflow: hidden;
   &__top {
     display: grid;
@@ -479,6 +479,37 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+}
+
+.anonces {
+  padding: 50px 0;
+
+  &__title {
+    color: #151515
+  }
+
+  &__items {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__item {
+    padding: 20px;
+  
+    border: 1px solid #151515;
+  }
+
+  &__date {
+    font-size: 20px;
+    letter-spacing: 5px
+  }
+
+  &__subtitle {
+    font-size: 30px;
+    font-weight: normal;
   }
 }
 
