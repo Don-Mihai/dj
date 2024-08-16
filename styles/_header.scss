@@ -32,6 +32,21 @@
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.3s;
+
+  &:hover,
+  &--selected {
+    transition: 0.15s;
+    opacity: 0.5;
+  }
+
+  &:active {
+    font-size: 14px;
+  }
+
+  &--selected {
+    font-size: 17px;
+    font-weight: 600;
+  }
 }
 
 .nav__link:hover {
