@@ -1,1 +1,594 @@
-.header{position:fixed;top:0;width:100%;background-color:#212121;box-shadow:0 0 5px rgba(0,0,0,.6392156863);z-index:100}.header__container{display:flex;align-items:center;height:110px;justify-content:space-between}.logo{width:260px}.nav{display:flex;gap:46px}.nav__link{color:#fff;font-size:15px;text-decoration:none;text-transform:uppercase;transition:.3s}.nav__link:hover,.nav__link--selected{transition:.15s;opacity:.5}.nav__link:active{font-size:14px}.nav__link--selected{font-size:17px;font-weight:600}.nav__link:hover{transition:.15s;opacity:.5}.header__icons{display:flex;gap:25px}.header__img{filter:invert(1);opacity:.5;transition:.3s}.header__img:hover{opacity:1;transition:.15s}.feel{margin-top:110px;display:flex;justify-content:center;align-items:flex-end;height:calc(100vh - 110px);background:url("../images/fell.jpg") no-repeat center/cover}.feel__container{margin-bottom:200px}.feel__subtitle{width:100%;font-size:120px;font-weight:700;fill:rgba(0,0,0,0);stroke:#fff;stroke-width:1px}.audio{margin-top:16px;width:100%}.dj{padding:150px 1px;display:flex;justify-content:center;align-items:center;gap:100px}.dj__wrap{position:relative}.dj__image{border-radius:7px;height:327px}.dj__figure{top:-20px;left:30px}.dj__content{width:500px}.dj__title{font-weight:700;color:#151515}.dj__text{font-size:15px;color:#151515}.dj__quote{padding:12px 23px 0;margin-bottom:35px;font-size:24px}.arrow{cursor:pointer;font-size:54px;padding:10px;-webkit-user-select:none;-moz-user-select:none;user-select:none;color:#151515}.left-arrow{position:absolute;left:0}.right-arrow{position:absolute;right:0}.listen{background:url("../images/img.png") no-repeat center/cover}.listen__container{display:flex;flex-direction:column;align-items:center;gap:45px;padding:150px 0}.listen__title{border-radius:8px;padding:10px 50px;background:rgba(0,0,0,.3)}.listen__figure{top:-20px;right:10px}.release{margin-top:110px;margin-bottom:110px}.release__title{color:#151515}.release__container{display:flex;flex-direction:column;align-items:center;text-align:center}.release__text{flex-wrap:wrap;max-width:520px}.release__singles{display:flex;gap:32px}.release__card{display:flex;flex-direction:column;align-items:center}.release__rect{margin-top:32px}.release__card_title{font-size:40px;text-transform:uppercase;margin-top:-156px;padding-bottom:90px;color:#fff}.release__description{color:#151515;color:#151515;font-size:30px;font-weight:700;padding-bottom:10px}.release__date{color:#151515;font-size:18px}.fanbase{background:url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg") no-repeat center/cover;padding:110px 0px}.fanbase__container{display:flex}.fanbase__parallax-pics{max-width:30%;gap:8px;display:flex;flex-direction:column}.fanbase__content{max-width:70%}.fanbase__list-item{display:flex;padding:60px 0px 0px 60px;gap:24px;align-items:center}.fanbase__list-item__content{display:flex;flex-direction:column}.fanbase__deco{width:51px;height:51px;border:#8121e0 5px solid}.fanbase__subtitle{color:#fff;font-size:32px}.fanbase__text{color:#fff}.tickets{padding:80px 0;display:flex;flex-direction:column;align-items:center}.tickets__wrap{width:100%;display:flex;justify-content:space-between}.tickets__item{width:290px;display:flex;flex-direction:column;align-items:center;gap:40px;line-height:1}.tickets__title{color:#151515;margin-bottom:40px}.tickets__subtitle{font-size:18px;font-weight:400}.tickets__price{color:#151515;font-size:110px}.tickets__text-cont{color:#151515;display:flex;flex-direction:column;gap:4px}.order{height:1000px;padding:100px}@media(max-width: 1024px){.logo{width:175px}.nav{gap:38px}.nav__link{font-size:13px}.feel__subtitle{font-size:90px}.dj{gap:40px}.dj__image{display:none}}.subscribe{padding:110px 0px;background:url("../images/jiroe-matia-rengel-b9kh72kOcdM-unsplash.jpg") no-repeat center/cover}.subscribe__form{padding-top:60px;gap:24px}.subscribe__form__email{height:60px;width:500px;padding-left:16px}.subscribe__container{display:flex;flex-direction:column;align-items:center}.footer{position:relative;padding:110px 0;background:#212121;display:flex;flex-direction:column;align-items:center}.footer__logo{padding-bottom:60px}.footer__links{display:flex;align-items:center;gap:46px;padding-bottom:40px}.footer__icons{display:flex;align-items:center;gap:46px;padding-bottom:90px}.footer__rights{padding-bottom:40px;color:rgba(255,255,255,.5)}.footer__deco{position:absolute;top:-20px;left:80px}.company{background-color:#fff;color:#151515;padding:50px;display:flex;flex-direction:column;align-items:center;text-align:center;padding-top:110px}.company__content{max-width:960px}.company__title,.company .contacts__title{font-size:36px;font-weight:bold;line-height:1.5;color:#8121e0;margin-bottom:20px}.company__description{font-size:18px;font-weight:normal;line-height:1.5;color:#212121;margin-bottom:30px;text-align:justify}.company .company__contacts{font-size:16px}.company .company__contacts .contacts__info{margin-bottom:10px}.company .company__contacts .social-links{display:flex;justify-content:center;gap:10px}.company .company__contacts .social-links .social-link{color:#8121e0;text-decoration:none;font-weight:bold}.company .company__contacts .social-links .social-link:hover{text-decoration:underline}.gallery{display:grid;gap:20px;padding:150px 10px 40px;grid-template-columns:repeat(auto-fill, minmax(350px, 1fr))}.gallery-item{overflow:hidden;box-shadow:0 4px 6px rgba(0,0,0,.1)}.gallery-item img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover;display:block}.gallery-home{height:calc(100vh - 110px);overflow:hidden}.gallery-home__top{display:grid;grid-template-columns:repeat(3, 1fr);height:50%}.gallery-home__bottom{display:flex;height:50%}.gallery-home__item{width:100%;height:100%;overflow:hidden}.gallery-home__img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.anonces{padding:50px 0}.anonces__title{color:#151515}.anonces__items{margin-top:30px;display:flex;flex-direction:column;gap:20px}.anonces__item{padding:20px;border:1px solid #151515}.anonces__date{font-size:20px;letter-spacing:5px}.anonces__subtitle{font-size:30px;font-weight:normal}@media(max-width: 1024px){.logo{width:175px}.nav{gap:16px}.nav__link{font-size:12px}.feel__subtitle{font-size:90px}.about{padding:0px 16px}.about__portrait{max-height:550px}.listen__deco{bottom:306px;left:300px}.release__card-title{font-size:40px;margin-top:-150px}.release__rect{width:222px;height:234px}.fanbase__deco{width:27px;height:27px}.subscribe{text-align:center}.subscribe__form{padding-top:20px;align-items:center;display:flex;flex-direction:column;gap:4px}.subscribe__form__email{width:400px}}@media(max-width: 768px){.header__icons{display:none}.header__container{justify-content:space-around}.feel__subtitle{font-size:56px;margin-top:-70px}.about__portrait,.about__deco-dbl,.about__deco{display:none}.listen__deco{bottom:363px;left:210px}.release__card-title{font-size:16px;margin-top:-38px;padding-bottom:10px}.release__rect{width:92px;height:97px}.release__description{font-size:16px}.release__card_title{font-size:16px;margin-top:-40px;padding-bottom:20px}.tickets__text-cont{height:92px;white-space:nowrap}.fanbase__deco{width:20px;height:20px}.fanbase__parallax-pics{display:none}.fanbase__content{max-width:90%}.footer__rights{white-space:nowrap}}@media screen and (max-width: 480px){.nav{display:none}.feel__subtitle{font-size:40px;margin-top:-85px}.listen__deco{bottom:413px;left:160px}.tickets__wrap{flex-direction:column;align-items:center;gap:40px}.about{padding:16px;padding-top:0px}.about__content{padding-left:0px}.release__singles{display:flex;gap:32px;flex-direction:column}.release__rect{width:111px;height:117px}.subscribe__form__email{width:350px}}/*# sourceMappingURL=style.min.css.map */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #212121;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6392156863);
+  z-index: 100;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  height: 110px;
+  justify-content: space-between;
+}
+.logo {
+  width: 260px;
+}
+.nav {
+  display: flex;
+  gap: 46px;
+}
+.nav__link {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.nav__link:hover {
+  transition: 0.15s;
+  opacity: 0.5;
+}
+.nav__link--selected {
+  font-size: 17px;
+  font-weight: 600;
+}
+.header__icons {
+  display: flex;
+  gap: 25px;
+}
+.header__img {
+  filter: invert(1);
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.header__img:hover {
+  opacity: 1;
+  transition: 0.15s;
+}
+.feel {
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: calc(100vh - 110px);
+  background: url("../images/fell.jpg") no-repeat center/cover;
+}
+.feel__container {
+  margin-bottom: 200px;
+}
+.feel__subtitle {
+  width: 100%;
+  font-size: 120px;
+  font-weight: 700;
+  fill: rgba(0, 0, 0, 0);
+  stroke: #fff;
+  stroke-width: 1px;
+}
+.audio {
+  margin-top: 16px;
+  width: 100%;
+}
+.dj {
+  padding: 150px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.dj__wrap {
+  position: relative;
+}
+.dj__image {
+  border-radius: 7px;
+  height: 327px;
+}
+.dj__figure {
+  top: -20px;
+  left: 30px;
+}
+.dj__content {
+  width: 500px;
+}
+.dj__title {
+  font-weight: 700;
+  color: #151515;
+}
+.dj__text {
+  font-size: 15px;
+  color: #151515;
+}
+.dj__quote {
+  padding: 12px 23px 0;
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+.arrow {
+  cursor: pointer;
+  font-size: 54px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  color: #151515;
+}
+.left-arrow {
+  position: absolute;
+  left: 0;
+}
+.right-arrow {
+  position: absolute;
+  right: 0;
+}
+.listen {
+  background: url("../images/img.png") no-repeat center/cover;
+}
+.listen__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  padding: 150px 0;
+}
+.listen__title {
+  border-radius: 8px;
+  padding: 10px 50px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.listen__figure {
+  top: -20px;
+  right: 10px;
+}
+.release {
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+.release__title {
+  color: #151515;
+}
+.release__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.release__text {
+  flex-wrap: wrap;
+  max-width: 520px;
+}
+.release__singles {
+  display: flex;
+  gap: 32px;
+}
+.release__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.release__rect {
+  margin-top: 32px;
+}
+.release__card_title {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: -156px;
+  padding-bottom: 90px;
+  color: #fff;
+}
+.release__description {
+  color: #151515;
+  color: #151515;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.release__date {
+  color: #151515;
+  font-size: 18px;
+}
+.fanbase {
+  background: url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg")
+    no-repeat center/cover;
+  padding: 110px 0px;
+}
+.fanbase__container {
+  display: flex;
+}
+.fanbase__parallax-pics {
+  max-width: 30%;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.fanbase__content {
+  max-width: 70%;
+}
+.fanbase__list-item {
+  display: flex;
+  padding: 60px 0px 0px 60px;
+  gap: 24px;
+  align-items: center;
+}
+.fanbase__list-item__content {
+  display: flex;
+  flex-direction: column;
+}
+.fanbase__deco {
+  width: 51px;
+  height: 51px;
+  border: #8121e0 5px solid;
+}
+.fanbase__subtitle {
+  color: #fff;
+  font-size: 32px;
+}
+.fanbase__text {
+  color: #fff;
+}
+.tickets {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tickets__wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tickets__item {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  line-height: 1;
+}
+.tickets__title {
+  color: #151515;
+  margin-bottom: 40px;
+}
+.tickets__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+}
+.tickets__price {
+  color: #151515;
+  font-size: 110px;
+}
+.tickets__text-cont {
+  color: #151515;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.order {
+  height: 1000px;
+  padding: 100px;
+}
+@media (max-width: 1024px) {
+  .logo {
+    width: 175px;
+  }
+  .nav {
+    gap: 38px;
+  }
+  .nav__link {
+    font-size: 13px;
+  }
+  .feel__subtitle {
+    font-size: 90px;
+  }
+  .dj {
+    gap: 40px;
+  }
+  .dj__image {
+    display: none;
+  }
+}
+.subscribe {
+  padding: 110px 0px;
+  background: url("../images/jiroe-matia-rengel-b9kh72kOcdM-unsplash.jpg")
+    no-repeat center/cover;
+}
+.subscribe__form {
+  padding-top: 60px;
+  gap: 24px;
+}
+.subscribe__form__email {
+  height: 60px;
+  width: 500px;
+  padding-left: 16px;
+}
+.subscribe__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  position: relative;
+  padding: 110px 0;
+  background: #212121;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__logo {
+  padding-bottom: 60px;
+}
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  padding-bottom: 40px;
+}
+.footer__icons {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  padding-bottom: 90px;
+}
+.footer__rights {
+  padding-bottom: 40px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer__deco {
+  position: absolute;
+  top: -20px;
+  left: 80px;
+}
+.company {
+  background-color: #fff;
+  color: #151515;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 110px;
+}
+.company__content {
+  max-width: 960px;
+}
+.company__title,
+.company .contacts__title {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #8121e0;
+  margin-bottom: 20px;
+}
+.company__description {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #212121;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.company .company__contacts {
+  font-size: 16px;
+}
+.company .company__contacts .contacts__info {
+  margin-bottom: 10px;
+}
+.company .company__contacts .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.company .company__contacts .social-links .social-link {
+  color: #8121e0;
+  text-decoration: none;
+  font-weight: bold;
+}
+.company .company__contacts .social-links .social-link:hover {
+  text-decoration: underline;
+}
+.gallery {
+  display: grid;
+  gap: 20px;
+  padding: 150px 10px 40px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.gallery-item {
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+}
+.gallery-home {
+  height: calc(100vh - 110px);
+  overflow: hidden;
+}
+.gallery-home__top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 50%;
+}
+.gallery-home__bottom {
+  display: flex;
+  height: 50%;
+}
+.gallery-home__item {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.gallery-home__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.anonces {
+  padding: 50px 0;
+}
+.anonces__title {
+  color: #151515;
+}
+.anonces__items {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.anonces__item {
+  padding: 20px;
+  border: 1px solid #151515;
+}
+.anonces__date {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.anonces__subtitle {
+  font-size: 30px;
+  font-weight: normal;
+}
+@media (max-width: 1024px) {
+  .logo {
+    width: 175px;
+  }
+  .nav {
+    gap: 16px;
+  }
+  .nav__link {
+    font-size: 12px;
+  }
+  .feel__subtitle {
+    font-size: 90px;
+  }
+  .about {
+    padding: 0px 16px;
+  }
+  .about__portrait {
+    max-height: 550px;
+  }
+  .listen__deco {
+    bottom: 306px;
+    left: 300px;
+  }
+  .release__card-title {
+    font-size: 40px;
+    margin-top: -150px;
+  }
+  .release__rect {
+    width: 222px;
+    height: 234px;
+  }
+  .fanbase__deco {
+    width: 27px;
+    height: 27px;
+  }
+  .subscribe {
+    text-align: center;
+  }
+  .subscribe__form {
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .subscribe__form__email {
+    width: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .header__icons {
+    display: none;
+  }
+  .header__container {
+    justify-content: space-around;
+  }
+  .feel__subtitle {
+    font-size: 56px;
+    margin-top: -70px;
+  }
+  .about__portrait,
+  .about__deco-dbl,
+  .about__deco {
+    display: none;
+  }
+  .listen__deco {
+    bottom: 363px;
+    left: 210px;
+  }
+  .release__card-title {
+    font-size: 16px;
+    margin-top: -38px;
+    padding-bottom: 10px;
+  }
+  .release__rect {
+    width: 92px;
+    height: 97px;
+  }
+  .release__description {
+    font-size: 16px;
+  }
+  .release__card_title {
+    font-size: 16px;
+    margin-top: -40px;
+    padding-bottom: 20px;
+  }
+  .tickets__text-cont {
+    height: 92px;
+    white-space: nowrap;
+  }
+  .fanbase__deco {
+    width: 20px;
+    height: 20px;
+  }
+  .fanbase__parallax-pics {
+    display: none;
+  }
+  .fanbase__content {
+    max-width: 90%;
+  }
+  .footer__rights {
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nav {
+    display: none;
+  }
+  .feel__subtitle {
+    font-size: 40px;
+    margin-top: -85px;
+  }
+  .listen__deco {
+    bottom: 413px;
+    left: 160px;
+  }
+  .tickets__wrap {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .about {
+    padding: 16px;
+    padding-top: 0px;
+  }
+  .about__content {
+    padding-left: 0px;
+  }
+  .release__singles {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+  }
+  .release__rect {
+    width: 111px;
+    height: 117px;
+  }
+  .subscribe__form__email {
+    width: 350px;
+  }
+} /*# sourceMappingURL=style.min.css.map */
