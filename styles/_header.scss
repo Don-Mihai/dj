@@ -27,20 +27,14 @@
 
 .nav__link {
   color: #fff;
-  // @include font(15px);
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.3s;
 
-  &:hover,
-  &--selected {
+  &:hover {
     transition: 0.15s;
     opacity: 0.5;
-  }
-
-  &:active {
-    font-size: 14px;
   }
 
   &--selected {
@@ -49,13 +43,7 @@
   }
 }
 
-.nav__link:hover {
-  transition: 0.15s;
-  opacity: 0.5;
-}
-
 .header__icons {
-  // @include font(24px);
   display: flex;
   gap: 25px;
 }
@@ -72,3 +60,4 @@
 }
 
 /* --------- end header ------- */
+

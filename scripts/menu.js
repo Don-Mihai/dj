@@ -1,8 +1,6 @@
-const linkElements = document.querySelectorAll(".nav__link");
+const url = window.location.pathname;
+const editedUrl = url.replace('/', '');
 
-linkElements.forEach((link) => {
-  const href = link.getAttribute("href");
-  if (href === editedUrl) {
-    link.classList.add("nav__link--selected");
-  }
-});
+const link = document.querySelector(`.nav__link[href="${editedUrl}"]`);
+
+link.classList.add('nav__link--selected');
