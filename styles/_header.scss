@@ -27,7 +27,6 @@
 
 .nav__link {
   color: #fff;
-  // @include font(15px);
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -38,10 +37,6 @@
     opacity: 0.5;
   }
 
-  // &:active {
-  //   font-size: 14px;
-  // }
-
   &--selected {
     font-size: 17px;
     font-weight: 600;
@@ -49,7 +44,6 @@
 }
 
 .header__icons {
-  // @include font(24px);
   display: flex;
   gap: 25px;
 }
@@ -66,3 +60,4 @@
 }
 
 /* --------- end header ------- */
+
