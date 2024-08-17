@@ -31,10 +31,13 @@
   text-transform: uppercase;
   transition: 0.3s;
 }
-
 .nav__link:hover {
   transition: 0.15s;
   opacity: 0.5;
+}
+.nav__link--selected {
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .header__icons {

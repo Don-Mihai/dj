@@ -32,11 +32,20 @@
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.3s;
-}
 
-.nav__link:hover {
-  transition: 0.15s;
-  opacity: 0.5;
+  &:hover {
+    transition: 0.15s;
+    opacity: 0.5;
+  }
+
+  // &:active {
+  //   font-size: 14px;
+  // }
+
+  &--selected {
+    font-size: 17px;
+    font-weight: 600;
+  }
 }
 
 .header__icons {
