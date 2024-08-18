@@ -65,6 +65,7 @@
   align-items: flex-end;
   height: calc(100vh - 110px);
   background: url("../images/fell.jpg") no-repeat center/cover;
+  background-attachment: fixed;
 }
 
 .feel__container {
@@ -146,6 +147,7 @@
 /* --------- listen ------------ */
 .listen {
   background: url("../images/img.png") no-repeat center/cover;
+  background-attachment: fixed;
 }
 .listen__container {
   display: flex;
@@ -217,6 +219,7 @@
 .fanbase {
   background: url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg")
     no-repeat center/cover;
+  background-attachment: fixed;
   padding: 110px 0px;
 }
 .fanbase__container {
@@ -324,6 +327,7 @@
   padding: 110px 0px;
   background: url("../images/jiroe-matia-rengel-b9kh72kOcdM-unsplash.jpg")
     no-repeat center/cover;
+  background-attachment: fixed;
 }
 .subscribe__form {
   padding-top: 60px;
