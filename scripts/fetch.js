@@ -26,34 +26,36 @@
 // const cont = document.querySelector('.users-container');
 
 const getUsers = async () => {
-    try {
-        let data = await axios.get('https://jsonplaceholder.typicode.com/users');
-        let users = data.data;
+  try {
+    let data = await axios.get("https://jsonplaceholder.typicode.com/users");
+    let users = data.data;
 
-        cont.innerHTML = users
-            .map(user => {
-                return `<h2>${user.name}</h2>`;
-            })
-            .join('');
+    cont.innerHTML = users
+      .map((user) => {
+        return `<h2>${user.name}</h2>`;
+      })
+      .join("");
 
-        return users;
-    } catch (error) {
-        return [];
-    }
+    return users;
+  } catch (error) {
+    return [];
+  }
 };
 
 // document.onload = getUsers();
 
-const cont = document.querySelector('.users-container');
+const cont = document.querySelector(".users-container");
 
 const getPhotos = async () => {
-    const photos = (await axios.get('https://jsonplaceholder.typicode.com/photos?_limit=5')).data;
+  const photos = (
+    await axios.get("https://jsonplaceholder.typicode.com/photos?_limit=5")
+  ).data;
 
-    cont.innerHTML = photos.map(image => {
-        return `<img src="${image.thumbnailUrl}" />`;
-    });
+  cont.innerHTML = photos.map((image) => {
+    return `<img src="${image.thumbnailUrl}" />`;
+  });
 
-    container.innerHTML = `<div></div>`;
+  container.innerHTML = `<div></div>`;
 };
 
 document.onload = getPhotos();

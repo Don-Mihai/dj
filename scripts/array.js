@@ -80,7 +80,6 @@
 
 // console.log(names);
 
-
 // --------- filter
 // const users = ['Mihai', 'Galileo', 'Zevs'];
 
@@ -91,7 +90,6 @@
 // });
 
 // console.log(filteredUsers);
-
 
 // const users = [
 //     {
@@ -114,7 +112,6 @@
 
 // console.log(newUsers);
 
-
 // --------- push pop
 
 // const animals = ['dog', 'cat'];
@@ -122,8 +119,6 @@
 // animals.push("rabbit"); // ["dog", "cat", "rabbit"]
 
 // const lastAnimal = animals.pop(); // rabbit
-
-
 
 // shift unshift
 
@@ -137,7 +132,6 @@
 // const languages = ['English', 'French', 'German'];
 
 // languages.splice(1, 1, "Spanish", "Russian"); // Удаляет "French" и добавляет "Spanish" и "Russian" на его место
-
 
 // console.log(languages);
 
@@ -189,4 +183,3 @@
 const numbers = [1, 2, 3, 4];
 
 const sum = numbers.reduce((total, num) => total + num, 0); // 10
-

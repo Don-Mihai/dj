@@ -1,17 +1,17 @@
 const city = {
-    name: 'Moscow',
-    coordinates: 123123413421341243,
+  name: "Moscow",
+  coordinates: 123123413421341243,
 };
 
 const user = {
-    firstName: 'Leonardo',
-    age: 12,
-    weight: 68,
-    isWorker: false,
-    city,
-    sayName: function () {
-        alert(`My name is ${this.firstName}`);
-    },
+  firstName: "Leonardo",
+  age: 12,
+  weight: 68,
+  isWorker: false,
+  city,
+  sayName: function () {
+    alert(`My name is ${this.firstName}`);
+  },
 };
 
 user.sayName();
