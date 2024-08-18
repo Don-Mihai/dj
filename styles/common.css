@@ -10,20 +10,20 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
-  background-color: #8121e0;
+  background-color: #151515;
   transition: 0.3s;
 }
 
 .button:hover {
-  background-color: #561794;
-  transition: 0.15s;
+  background-color: #6523a7;
+  transition: 0.2s;
   transform: scale(1.01);
 }
 
 .button-secondary {
   border: 1px solid #151515;
-  color: #151515;
-  background-color: #fff;
+  color: #fff;
+  background-color: #151515;
 }
 
 .button-secondary:hover {
