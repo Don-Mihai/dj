@@ -281,6 +281,195 @@
   }
 }
 
+//$accent: #8121e0;
+//$darkest: #151515;
+//$darker: #212121;
+//$lighter: #dee2e6;
+//$light: #e9ecef;
+//$lightest: #fff;
+
+.services-page {
+  margin-top: 110px;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $light;
+
+  &__title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: $darkest;
+  }
+
+  .service-item {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    padding: 40px;
+    background-color: $lightest;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    line-height: 1.5;
+
+    &__title {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: $darkest;
+    }
+
+    &__price {
+      font-size: 48px;
+      color: $accent;
+      margin-bottom: 20px;
+    }
+
+    &__description {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: $darker;
+    }
+
+    &__benefits {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 20px;
+
+      li {
+        font-size: 16px;
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 10px;
+        color: $darkest;
+
+        &:before {
+          content: "•";
+          color: $accent;
+          position: absolute;
+          left: 0;
+        }
+      }
+    }
+
+    .button {
+      align-self: center;
+      padding: 10px 30px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &-primary {
+        background-color: $accent;
+        color: $lightest;
+        border: none;
+
+        &:hover {
+          background-color: darken($accent, 10%);
+        }
+      }
+
+      &-secondary {
+        background-color: $darker;
+        color: $lightest;
+        border: none;
+
+        &:hover {
+          background-color: lighten($darker, 10%);
+        }
+      }
+    }
+  }
+
+  .testimonials {
+    margin-top: 60px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    background-color: $lightest;
+
+    &__title {
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: $darkest;
+    }
+
+    &__wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .testimonial {
+        font-size: 16px;
+        font-style: italic;
+        color: $darker;
+        position: relative;
+        padding: 20px;
+        background-color: $light;
+        border-radius: 10px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+
+        &:before {
+          content: "“";
+          font-size: 36px;
+          position: absolute;
+          left: 10px;
+          top: -10px;
+          color: $accent;
+        }
+
+        cite {
+          display: block;
+          font-style: normal;
+          font-weight: 600;
+          margin-top: 10px;
+          color: $darkest;
+        }
+      }
+    }
+  }
+}
+
+.events-link {
+  padding: 10px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $light;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+
+  &__content {
+    font-size: 24px;
+    font-weight: 600;
+    color: $darkest;
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $accent;
+
+      .arrow {
+        transform: translateX(10px);
+      }
+    }
+  }
+
+  .arrow {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    color: $accent;
+  }
+}
+
 .order {
   height: 1000px;
   padding: 100px;

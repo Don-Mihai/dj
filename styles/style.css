@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* --------- header ------- */
 .header {
   position: fixed;
@@ -127,8 +128,6 @@
   cursor: pointer;
   font-size: 54px;
   padding: 10px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
   user-select: none;
   color: #151515;
 }
@@ -205,6 +204,7 @@
 }
 .release__description {
   color: #151515;
+  color: #151515;
   font-size: 30px;
   font-weight: 700;
   padding-bottom: 10px;
@@ -217,8 +217,7 @@
 /*__________ release end __________*/
 /*__________ fanbase start __________*/
 .fanbase {
-  background: url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg")
-    no-repeat center/cover;
+  background: url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg") no-repeat center/cover;
   background-attachment: fixed;
   padding: 110px 0px;
 }
@@ -297,6 +296,165 @@
   gap: 4px;
 }
 
+.services-page {
+  margin-top: 110px;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9ecef;
+}
+.services-page__title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #151515;
+}
+.services-page .service-item {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 60px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  line-height: 1.5;
+}
+.services-page .service-item__title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #151515;
+}
+.services-page .service-item__price {
+  font-size: 48px;
+  color: #8121e0;
+  margin-bottom: 20px;
+}
+.services-page .service-item__description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #212121;
+}
+.services-page .service-item__benefits {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.services-page .service-item__benefits li {
+  font-size: 16px;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #151515;
+}
+.services-page .service-item__benefits li:before {
+  content: "•";
+  color: #8121e0;
+  position: absolute;
+  left: 0;
+}
+.services-page .service-item .button {
+  align-self: center;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.services-page .service-item .button-primary {
+  background-color: #8121e0;
+  color: #fff;
+  border: none;
+}
+.services-page .service-item .button-primary:hover {
+  background-color: #6719b5;
+}
+.services-page .service-item .button-secondary {
+  background-color: #212121;
+  color: #fff;
+  border: none;
+}
+.services-page .service-item .button-secondary:hover {
+  background-color: #3b3b3b;
+}
+.services-page .testimonials {
+  margin-top: 60px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  background-color: #fff;
+}
+.services-page .testimonials__title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #151515;
+}
+.services-page .testimonials__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.services-page .testimonials__wrap .testimonial {
+  font-size: 16px;
+  font-style: italic;
+  color: #212121;
+  position: relative;
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.services-page .testimonials__wrap .testimonial:before {
+  content: "“";
+  font-size: 36px;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  color: #8121e0;
+}
+.services-page .testimonials__wrap .testimonial cite {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #151515;
+}
+
+.events-link {
+  padding: 10px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.events-link__content {
+  font-size: 24px;
+  font-weight: 600;
+  color: #151515;
+  text-decoration: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease;
+}
+.events-link__content:hover {
+  color: #8121e0;
+}
+.events-link__content:hover .arrow {
+  transform: translateX(10px);
+}
+.events-link .arrow {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  color: #8121e0;
+}
+
 .order {
   height: 1000px;
   padding: 100px;
@@ -325,8 +483,7 @@
 /*__________ subscribe start__________*/
 .subscribe {
   padding: 110px 0px;
-  background: url("../images/jiroe-matia-rengel-b9kh72kOcdM-unsplash.jpg")
-    no-repeat center/cover;
+  background: url("../images/jiroe-matia-rengel-b9kh72kOcdM-unsplash.jpg") no-repeat center/cover;
   background-attachment: fixed;
 }
 .subscribe__form {
@@ -443,7 +600,6 @@
 .gallery-item img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
   object-fit: cover;
   display: block;
 }
@@ -469,7 +625,6 @@
 .gallery-home__img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -558,9 +713,7 @@
     font-size: 56px;
     margin-top: -70px;
   }
-  .about__portrait,
-  .about__deco-dbl,
-  .about__deco {
+  .about__portrait, .about__deco-dbl, .about__deco {
     display: none;
   }
   .listen__deco {
@@ -639,3 +792,5 @@
     width: 350px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
