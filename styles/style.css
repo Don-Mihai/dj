@@ -302,7 +302,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #e9ecef;
 }
 .services-page__title {
   font-size: 36px;
@@ -458,6 +457,111 @@
 .order {
   height: 1000px;
   padding: 100px;
+}
+
+.calculator {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 40px auto;
+}
+.calculator__title {
+  font-size: 32px;
+  color: #151515;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.calculator .form-group {
+  margin-bottom: 25px;
+}
+.calculator .form-group label {
+  font-size: 16px;
+  color: #151515;
+  display: block;
+  margin-bottom: 10px;
+}
+.calculator .form-group .form-control {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s ease;
+}
+.calculator .form-group .form-control:focus {
+  border-color: #8121e0;
+  outline: none;
+}
+.calculator .package-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.calculator .package-options input[type=radio] {
+  display: none;
+}
+.calculator .package-options input[type=radio]:checked + .radio-label {
+  background-color: #8121e0;
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(129, 33, 224, 0.2);
+}
+.calculator .package-options .radio-label {
+  padding: 10px;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  font-size: 16px;
+}
+.calculator .package-options .radio-label:hover {
+  border-color: #8121e0;
+}
+.calculator .extra-services {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.calculator .extra-services input[type=checkbox] {
+  display: none;
+}
+.calculator .extra-services input[type=checkbox]:checked + .checkbox-label {
+  background-color: #8121e0;
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(129, 33, 224, 0.2);
+}
+.calculator .extra-services .checkbox-label {
+  padding: 10px;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+.calculator .extra-services .checkbox-label:hover {
+  border-color: #8121e0;
+}
+.calculator .button-primary {
+  background-color: #8121e0;
+  color: #fff;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.calculator .button-primary:hover {
+  background-color: #6719b5;
+}
+.calculator h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #8121e0;
 }
 
 @media (max-width: 1024px) {
