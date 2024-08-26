@@ -312,12 +312,13 @@
 }
 .services-page .service-item {
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   display: flex;
+  gap: 10px;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 60px;
-  padding: 40px;
+  padding: 20px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
@@ -683,7 +684,7 @@
 .company .company__contacts .social-links {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 14px;
 }
 .company .company__contacts .social-links .social-link {
   color: #8121e0;
