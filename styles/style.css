@@ -217,7 +217,8 @@
 /*__________ release end __________*/
 /*__________ fanbase start __________*/
 .fanbase {
-  background: url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg") no-repeat center/cover;
+  background: url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg")
+    no-repeat center/cover;
   background-attachment: fixed;
   padding: 110px 0px;
 }
@@ -295,7 +296,8 @@
   flex-direction: column;
   gap: 4px;
 }
-
+/* --------- tickets end ------------ */
+/* --------- services ------------ */
 .services-page {
   margin-top: 110px;
   padding: 80px 0;
@@ -363,7 +365,7 @@
   cursor: pointer;
 }
 .services-page .service-item .button-primary {
-  background-color: #8121e0;
+  background-color: #000000;
   color: #fff;
   border: none;
 }
@@ -371,12 +373,12 @@
   background-color: #6719b5;
 }
 .services-page .service-item .button-secondary {
-  background-color: #212121;
+  background-color: #000000;
   color: #fff;
   border: none;
 }
 .services-page .service-item .button-secondary:hover {
-  background-color: #3b3b3b;
+  background-color: #6719b5;
 }
 .services-page .testimonials {
   margin-top: 60px;
@@ -420,7 +422,8 @@
   margin-top: 10px;
   color: #151515;
 }
-
+/* --------- services end ------------ */
+/* --------- events ------------ */
 .events-link {
   padding: 10px 60px;
   display: flex;
@@ -453,12 +456,12 @@
   display: inline-block;
   color: #8121e0;
 }
-
+/* --------- events end ------------ */
 .order {
   height: 1000px;
   padding: 100px;
 }
-
+/* --------- calculator ------------ */
 .calculator {
   padding: 40px;
   background-color: #fff;
@@ -500,10 +503,10 @@
   flex-direction: column;
   gap: 15px;
 }
-.calculator .package-options input[type=radio] {
+.calculator .package-options input[type="radio"] {
   display: none;
 }
-.calculator .package-options input[type=radio]:checked + .radio-label {
+.calculator .package-options input[type="radio"]:checked + .radio-label {
   background-color: #8121e0;
   color: #fff;
   box-shadow: 0px 4px 10px rgba(129, 33, 224, 0.2);
@@ -525,10 +528,10 @@
   flex-direction: column;
   gap: 15px;
 }
-.calculator .extra-services input[type=checkbox] {
+.calculator .extra-services input[type="checkbox"] {
   display: none;
 }
-.calculator .extra-services input[type=checkbox]:checked + .checkbox-label {
+.calculator .extra-services input[type="checkbox"]:checked + .checkbox-label {
   background-color: #8121e0;
   color: #fff;
   box-shadow: 0px 4px 10px rgba(129, 33, 224, 0.2);
@@ -563,7 +566,7 @@
   font-size: 24px;
   color: #8121e0;
 }
-
+/* --------- calculator end ------------ */
 @media (max-width: 1024px) {
   .logo {
     width: 175px;
@@ -587,7 +590,8 @@
 /*__________ subscribe start__________*/
 .subscribe {
   padding: 110px 0px;
-  background: url("../images/jiroe-matia-rengel-b9kh72kOcdM-unsplash.jpg") no-repeat center/cover;
+  background: url("../images/jiroe-matia-rengel-b9kh72kOcdM-unsplash.jpg")
+    no-repeat center/cover;
   background-attachment: fixed;
 }
 .subscribe__form {
@@ -756,7 +760,7 @@
   font-size: 30px;
   font-weight: normal;
 }
-
+/* --------- artists ------------ */
 .artists {
   font-family: "Montserrat", sans-serif;
   width: 100%;
@@ -769,7 +773,11 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 20px;
-  background: linear-gradient(90deg, #1b1c1e 0.27%, rgba(43, 69, 81, 0.4) 71.25%);
+  background: linear-gradient(
+    90deg,
+    #1b1c1e 0.27%,
+    rgba(43, 69, 81, 0.4) 71.25%
+  );
   padding: 24px;
   margin-bottom: 80px;
 }
@@ -854,7 +862,8 @@
 .artists-list__item__name a:hover {
   color: #fd7e14;
 }
-
+/* --------- artists end ------------ */
+/* --------- search ------------ */
 .search {
   display: flex;
   flex-wrap: wrap;
@@ -885,7 +894,7 @@
 .search .active {
   background-color: #ff6b00;
 }
-
+/* --------- search end ------------ */
 @media (max-width: 1024px) {
   .logo {
     width: 175px;
@@ -946,7 +955,9 @@
     font-size: 56px;
     margin-top: -70px;
   }
-  .about__portrait, .about__deco-dbl, .about__deco {
+  .about__portrait,
+  .about__deco-dbl,
+  .about__deco {
     display: none;
   }
   .listen__deco {
