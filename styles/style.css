@@ -757,6 +757,135 @@
   font-weight: normal;
 }
 
+.artists {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  padding: 100px 0px;
+  margin-top: 20px;
+}
+
+.top-artists__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #1b1c1e 0.27%, rgba(43, 69, 81, 0.4) 71.25%);
+  padding: 24px;
+  margin-bottom: 80px;
+}
+.top-artists__title {
+  max-width: 400px;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin-right: 10px;
+  position: relative;
+}
+.top-artists__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-artists__card {
+  position: relative;
+  max-width: 246px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 16px;
+}
+.top-artists__card__image {
+  width: 236px;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.top-artists__card__name {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+.top-artists__card__name a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.top-artists__card__name a:hover {
+  color: #fd7e14;
+}
+.top-artists__card__label {
+  font-size: 14px;
+  margin: 0;
+}
+
+.artists-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.artists-list__item {
+  position: relative;
+  max-width: 240px;
+  min-height: 322px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 16px;
+}
+.artists-list__item__image {
+  width: 236px;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.artists-list__item__name {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+.artists-list__item__name a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.artists-list__item__name a:hover {
+  color: #fd7e14;
+}
+
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.search__filter {
+  width: 100%;
+  padding: 14px;
+  background: #1b1c1e;
+  border-radius: 15px;
+}
+.search__filter-list {
+  display: flex;
+}
+.search__filter-button {
+  border: none;
+  background-color: #1b1c1e;
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.search .active {
+  background-color: #ff6b00;
+}
+
 @media (max-width: 1024px) {
   .logo {
     width: 175px;

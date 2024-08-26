@@ -819,4 +819,158 @@
   }
 }
 
+// ----------- artists ----------
+$basic-font-size: 14px;
+
+.artists {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  padding: 100px 0px;
+  margin-top: 20px;
+}
+
+.top-artists {
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: linear-gradient(
+      90deg,
+      #1b1c1e 0.27%,
+      rgba(43, 69, 81, 0.4) 71.25%
+    );
+    padding: 24px;
+    margin-bottom: 80px;
+  }
+
+  &__title {
+    max-width: 400px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin-right: 10px;
+    position: relative;
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    position: relative;
+    max-width: 246px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 16px 16px;
+
+    &__image {
+      width: 236px;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    &__name {
+      font-size: 18px;
+      margin: 10px 0 5px;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+
+        &:hover {
+          color: #fd7e14;
+        }
+      }
+    }
+
+    &__label {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+}
+
+.artists-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+
+  &__item {
+    position: relative;
+    max-width: 240px;
+    min-height: 322px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 16px 16px;
+
+    &__image {
+      width: 236px;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    &__name {
+      font-size: 18px;
+      margin: 10px 0 5px;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+
+        &:hover {
+          color: #fd7e14;
+        }
+      }
+    }
+  }
+}
+
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 32px;
+
+  &__filter {
+    width: 100%;
+    padding: 14px;
+    background: #1b1c1e;
+    border-radius: 15px;
+
+    &-list {
+      display: flex;
+    }
+
+    &-button {
+      border: none;
+      background-color: #1b1c1e;
+      color: #fafafa;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 150%;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-bottom: 0;
+      cursor: pointer;
+    }
+  }
+  .active {
+    background-color: #ff6b00;
+  }
+}
+
 @import "mediaqueries";
