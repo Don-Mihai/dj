@@ -27,6 +27,7 @@
           <a href="index.html" class="nav__link">Главная</a>
           <a href="services.html" class="nav__link">Услуги</a>
           <a href="portfolio.html" class="nav__link">Портфолио</a>
+          <a href="artists.html" class="nav__link">Диджеи</a>
           <a href="about.html" class="nav__link">О нас</a>
         </nav>
 
@@ -95,7 +96,7 @@
           <li>Фотосессия и видеосъемка</li>
           <li>Кейтеринг</li>
         </ul>
-        <button class="button button-secondary">Заказать</button>
+        <button class="button button-secondary order-button">Заказать</button>
       </div>
 
       <!-- Секция Корпоратив -->
@@ -113,7 +114,7 @@
           <li>Кейтеринг и напитки</li>
           <li>Призы и сувениры для участников</li>
         </ul>
-        <button class="button button-primary">Заказать</button>
+        <button class="button button-primary order-button">Заказать</button>
       </div>
 
       <!-- Секция День рождения -->
@@ -130,7 +131,7 @@
           <li>Аниматоры и ведущие</li>
           <li>Фото- и видеосъемка</li>
         </ul>
-        <button class="button button-secondary">Заказать</button>
+        <button class="button button-secondary order-button">Заказать</button>
       </div>
 
       <!-- Секция Юбилей -->
@@ -147,7 +148,78 @@
           <li>Профессиональные ведущие и артисты</li>
           <li>Кейтеринг и развлекательная программа</li>
         </ul>
-        <button class="button button-primary">Заказать</button>
+        <button class="button button-primary order-button">Заказать</button>
+      </div>
+
+      <!-- Модальное окно -->
+      <div id="orderModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Выберите услуги</h2>
+
+          <div class="form-group">
+            <label for="dj">Выбор Диджея:</label>
+            <select id="dj" class="form-control">
+              <option value="dj1" data-price="5000">Диджей 1 (5000 ₽)</option>
+              <option value="dj2" data-price="6000">Диджей 2 (6000 ₽)</option>
+              <option value="dj3" data-price="7000">Диджей 3 (7000 ₽)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="host">Выбор Ведущего:</label>
+            <select id="host" class="form-control">
+              <option value="host1" data-price="7000">
+                Ведущий 1 (7000 ₽)
+              </option>
+              <option value="host2" data-price="8000">
+                Ведущий 2 (8000 ₽)
+              </option>
+              <option value="host3" data-price="9000">
+                Ведущий 3 (9000 ₽)
+              </option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mc">Выбор МС:</label>
+            <select id="mc" class="form-control">
+              <option value="mc1" data-price="6000">МС 1 (6000 ₽)</option>
+              <option value="mc2" data-price="7000">МС 2 (7000 ₽)</option>
+              <option value="mc3" data-price="8000">МС 3 (8000 ₽)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="artist">Выбор Артиста:</label>
+            <select id="artist" class="form-control">
+              <option value="artist1" data-price="8000">
+                Артист 1 (8000 ₽)
+              </option>
+              <option value="artist2" data-price="9000">
+                Артист 2 (9000 ₽)
+              </option>
+              <option value="artist3" data-price="10000">
+                Артист 3 (10000 ₽)
+              </option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="hoursCount">Количество часов:</label>
+            <input
+              type="number"
+              id="hoursCount"
+              class="form-control"
+              min="1"
+              value="5"
+            />
+          </div>
+
+          <button class="button button-primary" id="confirmOrderButton">
+            Подтвердить заказ
+          </button>
+        </div>
       </div>
 
       <!-- Раздел с галереей -->
@@ -194,56 +266,52 @@
         </div>
 
         <div class="form-group">
-          <label for="guestCount">Количество гостей:</label>
+          <label for="hoursCount-calc">Количество часов:</label>
           <input
             type="number"
-            id="guestCount"
+            id="hoursCount-calc"
             class="form-control"
             min="1"
-            value="50"
+            value="5"
           />
         </div>
 
         <div class="form-group">
-          <label>Пакет услуг:</label>
-          <div class="package-options">
-            <input
-              type="radio"
-              id="basic"
-              name="package"
-              value="basic"
-              checked
-            />
-            <label for="basic" class="radio-label">Базовый (1000 ₽)</label>
-
-            <input type="radio" id="standard" name="package" value="standard" />
-            <label for="standard" class="radio-label"
-              >Стандартный (2000 ₽)</label
-            >
-
-            <input type="radio" id="premium" name="package" value="premium" />
-            <label for="premium" class="radio-label">Премиум (3000 ₽)</label>
-          </div>
+          <label for="dj-calc">Выбор Диджея:</label>
+          <select id="dj-calc" class="form-control">
+            <option value="dj1" data-price="5000">Диджей 1 (5000 ₽)</option>
+            <option value="dj2" data-price="6000">Диджей 2 (6000 ₽)</option>
+            <option value="dj3" data-price="7000">Диджей 3 (7000 ₽)</option>
+          </select>
         </div>
 
         <div class="form-group">
-          <label for="extraServices">Дополнительные услуги:</label>
-          <div class="extra-services">
-            <input type="checkbox" id="photography" value="photography" />
-            <label for="photography" class="checkbox-label"
-              >Фотограф (+5000 ₽)</label
-            >
+          <label for="host-calc">Выбор Ведущего:</label>
+          <select id="host-calc" class="form-control">
+            <option value="host1" data-price="7000">Ведущий 1 (7000 ₽)</option>
+            <option value="host2" data-price="8000">Ведущий 2 (8000 ₽)</option>
+            <option value="host3" data-price="9000">Ведущий 3 (9000 ₽)</option>
+          </select>
+        </div>
 
-            <input type="checkbox" id="video" value="video" />
-            <label for="video" class="checkbox-label"
-              >Видеооператор (+7000 ₽)</label
-            >
+        <div class="form-group">
+          <label for="mc-calc">Выбор МС:</label>
+          <select id="mc-calc" class="form-control">
+            <option value="mc1" data-price="6000">МС 1 (6000 ₽)</option>
+            <option value="mc2" data-price="7000">МС 2 (7000 ₽)</option>
+            <option value="mc3" data-price="8000">МС 3 (8000 ₽)</option>
+          </select>
+        </div>
 
-            <input type="checkbox" id="music" value="music" />
-            <label for="music" class="checkbox-label"
-              >Музыканты (+8000 ₽)</label
-            >
-          </div>
+        <div class="form-group">
+          <label for="artist-calc">Выбор Артиста:</label>
+          <select id="artist-calc" class="form-control">
+            <option value="artist1" data-price="8000">Артист 1 (8000 ₽)</option>
+            <option value="artist2" data-price="9000">Артист 2 (9000 ₽)</option>
+            <option value="artist3" data-price="10000">
+              Артист 3 (10000 ₽)
+            </option>
+          </select>
         </div>
 
         <div class="form-group">
@@ -265,5 +333,6 @@
     <!-- заявки-->
     <script src="./scripts/menu.js"></script>
     <script src="./scripts/calculator.js"></script>
+    <script src="./scripts/order.js"></script>
   </body>
 </html>
