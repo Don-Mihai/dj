@@ -854,8 +854,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 8px;
-  padding: 24px;
+  border-radius: 0px;
+  padding: 20px;
   margin-bottom: 80px;
   background: linear-gradient(
     90deg,
