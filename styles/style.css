@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* --------- header ------- */
+
+/* --------- Header ------- */
 .header {
   position: fixed;
   top: 0;
@@ -32,10 +33,12 @@
   text-transform: uppercase;
   transition: 0.3s;
 }
+
 .nav__link:hover {
   transition: 0.15s;
   opacity: 0.5;
 }
+
 .nav__link--selected {
   font-size: 17px;
   font-weight: 600;
@@ -57,8 +60,7 @@
   transition: 0.15s;
 }
 
-/* --------- end header ------- */
-/* --------- feel ------------ */
+/* --------- Feel ------------ */
 .feel {
   margin-top: 110px;
   display: flex;
@@ -87,8 +89,7 @@
   width: 100%;
 }
 
-/* --------- end feel ------------ */
-/* --------- dj ------------ */
+/* --------- DJ ------------ */
 .dj {
   padding: 150px 1px;
   display: flex;
@@ -96,28 +97,35 @@
   align-items: center;
   gap: 100px;
 }
+
 .dj__wrap {
   position: relative;
 }
+
 .dj__image {
   border-radius: 7px;
   height: 327px;
 }
+
 .dj__figure {
   top: -20px;
   left: 30px;
 }
+
 .dj__content {
   width: 500px;
 }
+
 .dj__title {
   font-weight: 700;
   color: #151515;
 }
+
 .dj__text {
   font-size: 15px;
   color: #151515;
 }
+
 .dj__quote {
   padding: 12px 23px 0;
   margin-bottom: 35px;
@@ -142,12 +150,12 @@
   right: 0;
 }
 
-/* --------- end dj ------------ */
-/* --------- listen ------------ */
+/* --------- Listen ------------ */
 .listen {
   background: url("../images/img.png") no-repeat center/cover;
   background-attachment: fixed;
 }
+
 .listen__container {
   display: flex;
   flex-direction: column;
@@ -155,46 +163,55 @@
   gap: 45px;
   padding: 150px 0;
 }
+
 .listen__title {
   border-radius: 8px;
   padding: 10px 50px;
   background: rgba(0, 0, 0, 0.3);
 }
+
 .listen__figure {
   top: -20px;
   right: 10px;
 }
 
-/*__________ release start __________*/
+/* --------- Release ------------ */
 .release {
   margin-top: 110px;
   margin-bottom: 110px;
 }
+
 .release__title {
   color: #151515;
 }
+
 .release__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
+
 .release__text {
   flex-wrap: wrap;
   max-width: 520px;
 }
+
 .release__singles {
   display: flex;
   gap: 32px;
 }
+
 .release__card {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .release__rect {
   margin-top: 32px;
 }
+
 .release__card_title {
   font-size: 40px;
   text-transform: uppercase;
@@ -202,74 +219,83 @@
   padding-bottom: 90px;
   color: #fff;
 }
+
 .release__description {
-  color: #151515;
   color: #151515;
   font-size: 30px;
   font-weight: 700;
   padding-bottom: 10px;
 }
+
 .release__date {
   color: #151515;
   font-size: 18px;
 }
 
-/*__________ release end __________*/
-/*__________ fanbase start __________*/
+/* --------- Fanbase ------------ */
 .fanbase {
   background: url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg")
     no-repeat center/cover;
   background-attachment: fixed;
   padding: 110px 0px;
 }
+
 .fanbase__container {
   display: flex;
 }
+
 .fanbase__parallax-pics {
   max-width: 30%;
   gap: 8px;
   display: flex;
   flex-direction: column;
 }
+
 .fanbase__content {
   max-width: 70%;
 }
+
 .fanbase__list-item {
   display: flex;
   padding: 60px 0px 0px 60px;
   gap: 24px;
   align-items: center;
 }
+
 .fanbase__list-item__content {
   display: flex;
   flex-direction: column;
 }
+
 .fanbase__deco {
   width: 51px;
   height: 51px;
   border: #8121e0 5px solid;
 }
+
 .fanbase__subtitle {
   color: #fff;
   font-size: 32px;
 }
+
 .fanbase__text {
   color: #fff;
 }
 
-/*__________ fanbase end __________*/
-/* --------- tickets ------------ */
+/* --------- Tickets ------------ */
 .tickets {
   padding: 80px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .tickets__wrap {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .tickets__item {
   width: 290px;
   display: flex;
@@ -278,26 +304,30 @@
   gap: 40px;
   line-height: 1;
 }
+
 .tickets__title {
   color: #151515;
   margin-bottom: 40px;
 }
+
 .tickets__subtitle {
   font-size: 18px;
   font-weight: 400;
 }
+
 .tickets__price {
   color: #151515;
   font-size: 110px;
 }
+
 .tickets__text-cont {
   color: #151515;
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-/* --------- tickets end ------------ */
-/* --------- services ------------ */
+
+/* --------- Services ------------ */
 .services-page {
   margin-top: 110px;
   padding: 80px 0;
@@ -305,11 +335,13 @@
   flex-direction: column;
   align-items: center;
 }
+
 .services-page__title {
   font-size: 36px;
   margin-bottom: 40px;
   color: #151515;
 }
+
 .services-page .service-item {
   width: 100%;
   max-width: 900px;
@@ -324,27 +356,32 @@
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   line-height: 1.5;
 }
+
 .services-page .service-item__title {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #151515;
 }
+
 .services-page .service-item__price {
   font-size: 48px;
   color: #8121e0;
   margin-bottom: 20px;
 }
+
 .services-page .service-item__description {
   font-size: 16px;
   margin-bottom: 20px;
   color: #212121;
 }
+
 .services-page .service-item__benefits {
   list-style: none;
   padding-left: 0;
   margin-bottom: 20px;
 }
+
 .services-page .service-item__benefits li {
   font-size: 16px;
   position: relative;
@@ -352,12 +389,14 @@
   margin-bottom: 10px;
   color: #151515;
 }
+
 .services-page .service-item__benefits li:before {
   content: "•";
   color: #8121e0;
   position: absolute;
   left: 0;
 }
+
 .services-page .service-item .button {
   align-self: center;
   padding: 10px 30px;
@@ -365,22 +404,27 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
 .services-page .service-item .button-primary {
   background-color: #000000;
   color: #fff;
   border: none;
 }
+
 .services-page .service-item .button-primary:hover {
   background-color: #6719b5;
 }
+
 .services-page .service-item .button-secondary {
   background-color: #000000;
   color: #fff;
   border: none;
 }
+
 .services-page .service-item .button-secondary:hover {
   background-color: #6719b5;
 }
+
 .services-page .testimonials {
   margin-top: 60px;
   width: 100%;
@@ -388,16 +432,19 @@
   text-align: center;
   background-color: #fff;
 }
+
 .services-page .testimonials__title {
   font-size: 28px;
   margin-bottom: 30px;
   color: #151515;
 }
+
 .services-page .testimonials__wrap {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .services-page .testimonials__wrap .testimonial {
   font-size: 16px;
   font-style: italic;
@@ -408,6 +455,7 @@
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
+
 .services-page .testimonials__wrap .testimonial:before {
   content: "“";
   font-size: 36px;
@@ -416,6 +464,7 @@
   top: -10px;
   color: #8121e0;
 }
+
 .services-page .testimonials__wrap .testimonial cite {
   display: block;
   font-style: normal;
@@ -423,8 +472,8 @@
   margin-top: 10px;
   color: #151515;
 }
-/* --------- services end ------------ */
-/* --------- events ------------ */
+
+/* --------- Events ------------ */
 .events-link {
   padding: 10px 60px;
   display: flex;
@@ -434,6 +483,7 @@
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
+
 .events-link__content {
   font-size: 24px;
   font-weight: 600;
@@ -445,24 +495,29 @@
   gap: 10px;
   transition: color 0.3s ease;
 }
+
 .events-link__content:hover {
   color: #8121e0;
 }
+
 .events-link__content:hover .arrow {
   transform: translateX(10px);
 }
+
 .events-link .arrow {
   font-size: 24px;
   transition: transform 0.3s ease;
   display: inline-block;
   color: #8121e0;
 }
-/* --------- events end ------------ */
+
+/* --------- Order ------------ */
 .order {
   height: 1000px;
   padding: 100px;
 }
-/* --------- calculator ------------ */
+
+/* --------- Calculator ------------ */
 .calculator {
   padding: 40px;
   background-color: #fff;
@@ -471,21 +526,25 @@
   max-width: 600px;
   margin: 40px auto;
 }
+
 .calculator__title {
   font-size: 32px;
   color: #151515;
   margin-bottom: 30px;
   text-align: center;
 }
+
 .calculator .form-group {
   margin-bottom: 25px;
 }
+
 .calculator .form-group label {
   font-size: 16px;
   color: #151515;
   display: block;
   margin-bottom: 10px;
 }
+
 .calculator .form-group .form-control {
   width: 100%;
   padding: 12px;
@@ -495,23 +554,28 @@
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
   transition: border-color 0.3s ease;
 }
+
 .calculator .form-group .form-control:focus {
   border-color: #8121e0;
   outline: none;
 }
+
 .calculator .package-options {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
 .calculator .package-options input[type="radio"] {
   display: none;
 }
+
 .calculator .package-options input[type="radio"]:checked + .radio-label {
   background-color: #8121e0;
   color: #fff;
   box-shadow: 0px 4px 10px rgba(129, 33, 224, 0.2);
 }
+
 .calculator .package-options .radio-label {
   padding: 10px;
   border: 2px solid #dee2e6;
@@ -521,22 +585,27 @@
   text-align: center;
   font-size: 16px;
 }
+
 .calculator .package-options .radio-label:hover {
   border-color: #8121e0;
 }
+
 .calculator .extra-services {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
 .calculator .extra-services input[type="checkbox"] {
   display: none;
 }
+
 .calculator .extra-services input[type="checkbox"]:checked + .checkbox-label {
   background-color: #8121e0;
   color: #fff;
   box-shadow: 0px 4px 10px rgba(129, 33, 224, 0.2);
 }
+
 .calculator .extra-services .checkbox-label {
   padding: 10px;
   border: 2px solid #dee2e6;
@@ -545,9 +614,11 @@
   transition: all 0.3s ease;
   font-size: 16px;
 }
+
 .calculator .extra-services .checkbox-label:hover {
   border-color: #8121e0;
 }
+
 .calculator .button-primary {
   background-color: #8121e0;
   color: #fff;
@@ -559,59 +630,43 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 .calculator .button-primary:hover {
   background-color: #6719b5;
 }
+
 .calculator h3 {
   text-align: center;
   font-size: 24px;
   color: #8121e0;
 }
-/* --------- calculator end ------------ */
-@media (max-width: 1024px) {
-  .logo {
-    width: 175px;
-  }
-  .nav {
-    gap: 38px;
-  }
-  .nav__link {
-    font-size: 13px;
-  }
-  .feel__subtitle {
-    font-size: 90px;
-  }
-  .dj {
-    gap: 40px;
-  }
-  .dj__image {
-    display: none;
-  }
-}
-/*__________ subscribe start__________*/
+
+/* --------- Subscribe ------------ */
 .subscribe {
   padding: 110px 0px;
   background: url("../images/jiroe-matia-rengel-b9kh72kOcdM-unsplash.jpg")
     no-repeat center/cover;
   background-attachment: fixed;
 }
+
 .subscribe__form {
   padding-top: 60px;
   gap: 24px;
 }
+
 .subscribe__form__email {
   height: 60px;
   width: 500px;
   padding-left: 16px;
 }
+
 .subscribe__container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/*__________ subscribe end __________*/
-/*__________ footer start__________*/
+/* --------- Footer ------------ */
 .footer {
   position: relative;
   padding: 110px 0;
@@ -620,32 +675,37 @@
   flex-direction: column;
   align-items: center;
 }
+
 .footer__logo {
   padding-bottom: 60px;
 }
+
 .footer__links {
   display: flex;
   align-items: center;
   gap: 46px;
   padding-bottom: 40px;
 }
+
 .footer__icons {
   display: flex;
   align-items: center;
   gap: 46px;
   padding-bottom: 90px;
 }
+
 .footer__rights {
   padding-bottom: 40px;
   color: rgba(255, 255, 255, 0.5);
 }
+
 .footer__deco {
   position: absolute;
   top: -20px;
   left: 80px;
 }
 
-/*__________ footer end __________*/
+/* --------- Company ------------ */
 .company {
   background-color: #fff;
   color: #151515;
@@ -656,9 +716,11 @@
   text-align: center;
   padding-top: 110px;
 }
+
 .company__content {
   max-width: 960px;
 }
+
 .company__title,
 .company .contacts__title {
   font-size: 36px;
@@ -667,6 +729,7 @@
   color: #8121e0;
   margin-bottom: 20px;
 }
+
 .company__description {
   font-size: 18px;
   font-weight: normal;
@@ -675,26 +738,32 @@
   margin-bottom: 30px;
   text-align: justify;
 }
+
 .company .company__contacts {
   font-size: 16px;
 }
+
 .company .company__contacts .contacts__info {
   margin-bottom: 10px;
 }
+
 .company .company__contacts .social-links {
   display: flex;
   justify-content: center;
   gap: 14px;
 }
+
 .company .company__contacts .social-links .social-link {
   color: #8121e0;
   text-decoration: none;
   font-weight: bold;
 }
+
 .company .company__contacts .social-links .social-link:hover {
   text-decoration: underline;
 }
 
+/* --------- Gallery ------------ */
 .gallery {
   display: grid;
   gap: 20px;
@@ -706,6 +775,7 @@
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .gallery-item img {
   width: 100%;
   height: 100%;
@@ -717,55 +787,66 @@
   height: calc(100vh - 110px);
   overflow: hidden;
 }
+
 .gallery-home__top {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   height: 50%;
 }
+
 .gallery-home__bottom {
   display: flex;
   height: 50%;
 }
+
 .gallery-home__item {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
+
 .gallery-home__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+/* --------- Announces ------------ */
 .anonces {
   padding: 50px 0;
 }
+
 .anonces__title {
   color: #151515;
 }
+
 .anonces__items {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .anonces__item {
   padding: 20px;
   border: 1px solid #151515;
 }
+
 .anonces__date {
   font-size: 20px;
   letter-spacing: 5px;
 }
+
 .anonces__subtitle {
   font-size: 30px;
   font-weight: normal;
 }
-/* --------- artists ------------ */
+
+/* --------- Artists ------------ */
 .artists {
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  padding: 100px 0px;
+  padding: 90px 0px;
   margin-top: 20px;
 }
 
@@ -773,15 +854,26 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 20px;
+  border-radius: 0px;
+  padding: 20px;
+  margin-bottom: 80px;
   background: linear-gradient(
     90deg,
     #1b1c1e 0.27%,
-    rgba(43, 69, 81, 0.4) 71.25%
+    rgba(43, 69, 81, 0.4) 72.25%
   );
-  padding: 24px;
-  margin-bottom: 80px;
+  animation: fadeIn 1s ease-in-out;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .top-artists__title {
   max-width: 400px;
   font-size: 50px;
@@ -790,11 +882,25 @@
   text-transform: uppercase;
   margin-right: 10px;
   position: relative;
+  animation: slideIn 1s ease-in-out;
 }
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 .top-artists__cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
 }
+
 .top-artists__card {
   position: relative;
   max-width: 246px;
@@ -805,25 +911,37 @@
   align-items: center;
   gap: 15px;
   padding: 16px 16px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
+
+.top-artists__card:hover {
+  transform: scale(1.05);
+}
+
 .top-artists__card__image {
   width: 236px;
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
 }
+
 .top-artists__card__name {
   font-size: 18px;
   margin: 10px 0 5px;
 }
+
 .top-artists__card__name a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
 }
+
 .top-artists__card__name a:hover {
   color: #fd7e14;
 }
+
 .top-artists__card__label {
   font-size: 14px;
   margin: 0;
@@ -834,6 +952,7 @@
   flex-wrap: wrap;
   margin-bottom: 60px;
 }
+
 .artists-list__item {
   position: relative;
   max-width: 240px;
@@ -845,41 +964,52 @@
   gap: 15px;
   padding: 16px 16px;
 }
+
 .artists-list__item__image {
   width: 236px;
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
 }
+
 .artists-list__item__name {
   font-size: 18px;
   margin: 10px 0 5px;
 }
+
 .artists-list__item__name a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
 }
+
 .artists-list__item__name a:hover {
   color: #fd7e14;
 }
-/* --------- artists end ------------ */
-/* --------- search ------------ */
+
+/* --------- Search ------------ */
 .search {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
 }
+
 .search__filter {
   width: 100%;
   padding: 14px;
   background: #1b1c1e;
   border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавление тени для глубины */
 }
+
 .search__filter-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Добавление отступов между кнопками */
 }
+
 .search__filter-button {
   border: none;
   background-color: #1b1c1e;
@@ -887,13 +1017,21 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 150%;
-  padding: 5px 10px;
+  padding: 10px 20px; /* Увеличение отступов для лучшей читаемости */
   border-radius: 5px;
   margin-bottom: 0;
   cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Плавные переходы */
 }
+
+.search__filter-button:hover {
+  background-color: #ff6b00;
+  color: #fff;
+}
+
 .search .active {
   background-color: #ff6b00;
+  color: #fff;
 }
 
 .modal {
@@ -937,56 +1075,29 @@
   text-decoration: none;
   cursor: pointer;
 }
-/* --------- search end ------------ */
+
+/* --------- Media Queries ------------ */
 @media (max-width: 1024px) {
   .logo {
     width: 175px;
   }
   .nav {
-    gap: 16px;
+    gap: 38px;
   }
   .nav__link {
-    font-size: 12px;
+    font-size: 13px;
   }
   .feel__subtitle {
     font-size: 90px;
   }
-  .about {
-    padding: 0px 16px;
+  .dj {
+    gap: 40px;
   }
-  .about__portrait {
-    max-height: 550px;
-  }
-  .listen__deco {
-    bottom: 306px;
-    left: 300px;
-  }
-  .release__card-title {
-    font-size: 40px;
-    margin-top: -150px;
-  }
-  .release__rect {
-    width: 222px;
-    height: 234px;
-  }
-  .fanbase__deco {
-    width: 27px;
-    height: 27px;
-  }
-  .subscribe {
-    text-align: center;
-  }
-  .subscribe__form {
-    padding-top: 20px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-  .subscribe__form__email {
-    width: 400px;
+  .dj__image {
+    display: none;
   }
 }
+
 @media (max-width: 768px) {
   .header__icons {
     display: none;
@@ -1042,6 +1153,7 @@
     white-space: nowrap;
   }
 }
+
 @media screen and (max-width: 480px) {
   .nav {
     display: none;
@@ -1079,5 +1191,3 @@
     width: 350px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
